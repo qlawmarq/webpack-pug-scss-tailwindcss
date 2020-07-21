@@ -1,0 +1,17 @@
+extends ./templates/_layout
+
+block variables
+  -
+    var appId = 'top';
+    var title = 'TOP PAGE';
+    var description = 'Description: This page is top page.';
+
+block content
+  header.header
+    h1.header__title HEADER
+      img(src="../static/home.svg")
+  div.main
+    p.maim__title This is a sample.
+  footer.footer
+    p.footer__title FOOTER
+      img(src="../static/home.svg")
