@@ -41,14 +41,10 @@ config.module.rules.push({
       loader: 'postcss-loader',
       options: {
         sourceMap: true,
+        ident: 'postcss',
         plugins: [
-          // autoprefixer({
-          //   browsers: [
-          //     'last 2 version',
-          //     'IE 11'
-          //   ]
-          // })
-        ]
+          require('tailwindcss')
+        ],
       }
     },
     {

@@ -7,11 +7,7 @@ block variables
     var description = 'Description: This page is top page.';
 
 block content
-  header.header
-    h1.header__title HEADER
-      img(src="../static/home.svg")
-  div.main
-    p.maim__title This is a sample.
-  footer.footer
-    p.footer__title FOOTER
-      img(src="../static/home.svg")
+  include components/_header.pug
+  div.container.mx-auto.px-4
+    p This is a sample.
+  include components/_footer.pug

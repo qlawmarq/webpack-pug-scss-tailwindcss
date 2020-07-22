@@ -1,15 +1,17 @@
 @import '~reset-css';
 @import 'color';
 
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
 .main {
-  height: 600px;
   &__title {
     color: $text-color;
   }
 }
 
 .header {
-  height: 100px;
   background-color: $primary-color;
   &__title {
     color: $text-color;
