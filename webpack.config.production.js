@@ -30,13 +30,9 @@ config.module.rules.push({
     {
       loader: 'postcss-loader',
       options: {
+        ident: 'postcss',
         plugins: [
-          // autoprefixer({
-          //   browsers: [
-          //     'last 2 version',
-          //     'IE 11'
-          //   ]
-          // }),
+          require('tailwindcss'),
           cssnano()
         ]
       }
