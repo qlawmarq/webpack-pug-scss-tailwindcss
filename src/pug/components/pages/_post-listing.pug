@@ -30,7 +30,7 @@
     div.py-4.px-2.border-b.border-white.border-dotted
       span.text-base.px-2 20XX.02.12
       span.text-base.px-2 aaa
-    div.py-4.px-2.border-b.border-white.border-dotted
+    div.py-4.px-2
       span.text-base.px-2 20XX.02.12
       span.text-base.px-2 aaa
   .container.mx-auto.p-6.flex.justify-center
@@ -48,9 +48,13 @@
     span.p-2.dots &mldr;
     a.p-2.bg-gray-500(href='#') 15
     a.next.p-2(href='#') &raquo;
-  .container.mx-auto.p-6
-    span.text-base.px-2.flex.justify-start return
-    span.text-base.px-2.flex.justify-end next
+  .container.flex.flex-wrap.items-center.justify-between.mx-auto
+    .justify-start.flex
+      .text-base.p-2.bg-gray-500 <
+      .text-base.p-2 Previous
+    .justify-end.flex
+      .text-base.p-2 Next
+      .text-base.p-2.bg-gray-500 >
   .container.mx-auto.p-3
     .button__v1.py-2.w-full.flex.flex-wrap.items-center.justify-between
       .justify-start
