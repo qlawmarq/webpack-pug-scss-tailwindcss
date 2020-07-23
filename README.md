@@ -2,6 +2,13 @@
 
 Coding environment with webpack, pug, scss, tailwindcss. 
 
+## Support library
+
+- .pug
+- .scss
+- Tailwind CSS
+- Font Awesome(free)
+
 ## Environment
 
 ```bash
