@@ -17,6 +17,7 @@
     "maintained node versions"
   ],
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0",
     "reset-css": "^4.0.1",
     "tailwindcss": "^1.5.2"
   },
