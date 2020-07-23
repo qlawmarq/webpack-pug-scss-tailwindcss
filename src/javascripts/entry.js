@@ -1,7 +1,8 @@
 import './pugImport';
 import '../css/base.scss';
-
-console.log('test');
+import '@fortawesome/fontawesome-free/js/fontawesome';
+import '@fortawesome/fontawesome-free/js/solid';
+import '@fortawesome/fontawesome-free/js/regular';
 
 // HMRに失敗してもJSがリロードしてくれないので強制的にリロードを実行する
 if (module.hot) {
