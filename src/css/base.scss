@@ -5,22 +5,17 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-.main {
-  &__title {
-    color: $text-color;
-  }
-}
-
 .header {
   background-color: $primary-color;
-  &__title {
-    color: $text-color;
-  }
+  color: $text-color;
+}
+
+.main {
+  background-color: $secondary-color;
+  color: $text-color;
 }
 
 .footer {
   background-color: $primary-color;
-  &__title {
-    color: $text-color;
-  }
+  color: $text-color;
 }

@@ -7,7 +7,6 @@ block variables
     var description = 'Description: This page is top page.';
 
 block content
-  include components/_header.pug
-  div.container.mx-auto.px-4
-    p This is a sample.
-  include components/_footer.pug
+  include components/layouts/_header.pug
+  include components/pages/_post-listing.pug
+  include components/layouts/_footer.pug
