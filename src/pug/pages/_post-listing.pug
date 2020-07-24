@@ -35,44 +35,29 @@
       span.text-base.px-2 aaa
   .container.mx-auto.p-6.flex.justify-center
     a.prev.p-2(href='#') &laquo;
-    a.p-2.bg-gray-500(href='#') 1
+    a.p-2.bg__color__tertiary(href='#') 1
     span.p-2(href='#') 2
-    a.p-2.bg-gray-500(href='#') 3
-    a.p-2.bg-gray-500(href='#') 4
-    a.p-2.bg-gray-500(href='#') 5
-    a.p-2.bg-gray-500(href='#') 6
-    a.p-2.bg-gray-500(href='#') 7
-    a.p-2.bg-gray-500(href='#') 8
-    a.p-2.bg-gray-500(href='#') 9
-    a.p-2.bg-gray-500(href='#') 10
+    a.p-2.bg__color__tertiary(href='#') 3
+    a.p-2.bg__color__tertiary(href='#') 4
+    a.p-2.bg__color__tertiary(href='#') 5
+    a.p-2.bg__color__tertiary(href='#') 6
+    a.p-2.bg__color__tertiary(href='#') 7
+    a.p-2.bg__color__tertiary(href='#') 8
+    a.p-2.bg__color__tertiary(href='#') 9
+    a.p-2.bg__color__tertiary(href='#') 10
     span.p-2.dots &mldr;
-    a.p-2.bg-gray-500(href='#') 15
+    a.p-2.bg__color__tertiary(href='#') 15
     a.next.p-2(href='#') &raquo;
-  .container.flex.flex-wrap.items-center.justify-between.mx-auto
+  .container.flex.flex-wrap.items-center.justify-between.mx-auto.pb-6
     .justify-start.flex
-      .text-base.p-2.bg-gray-500 <
+      .text-base.p-2.bg__color__tertiary <
       .text-base.p-2 Previous
     .justify-end.flex
       .text-base.p-2 Next
-      .text-base.p-2.bg-gray-500 >
-  .container.mx-auto.p-3
-    .button__v1.py-2.w-full.flex.flex-wrap.items-center.justify-between
-      .justify-start
-        .pl-4
-      .justify-center aaa
-      .justify-end
-        .pr-4 >
-  .container.mx-auto.p-3
-    .button__v2.py-2.w-full.flex.flex-wrap.items-center.justify-between
-      .justify-start
-        .pl-4
-      .justify-center aaa
-      .justify-end
-        .pr-4 >
-  .container.mx-auto.p-3
-    .button__v3.py-2.w-full.flex.flex-wrap.items-center.justify-between
-      .justify-start
-        .pl-4
-      .justify-center aaa
-      .justify-end
-        .pr-4 >
+      .text-base.p-2.bg__color__tertiary >
+  .container.mx-auto.pb-6
+    p.text-base.pb-2.text__color__hilight Category
+    include ../components/common/button/_button__v3.pug
+    include ../components/common/button/_button__v2.pug
+  .container.mx-auto.pb-6
+    include ../components/common/button/_button__v1.pug

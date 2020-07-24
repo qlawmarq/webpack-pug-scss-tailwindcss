@@ -7,6 +7,12 @@ block variables
     var description = 'Description: This page is top page.';
 
 block content
-  include components/layouts/_header.pug
-  include components/pages/_post-listing.pug
-  include components/layouts/_footer.pug
+  include layouts/_header.pug
+  include pages/_post__v1.pug
+  include components/_separator.pug
+  include pages/_post__v2.pug
+    include components/_separator.pug
+  include pages/_post__v3.pug
+    include components/_separator.pug
+  include pages/_post-listing.pug
+  include layouts/_footer.pug

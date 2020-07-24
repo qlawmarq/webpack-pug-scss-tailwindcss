@@ -1,5 +1,38 @@
 $primary-color: #333 !default;
 $secondary-color: #666 !default;
+$tertiary-color: #999 !default;
 $hilight-color: #dab55f !default;
 $text-color: #fff !default;
 $link-color: #2962ff !default;
+
+.text__color__primary{
+  color: $primary-color;
+}
+
+.text__color__secondary{
+  color: $secondary-color;
+}
+
+.text__color__tertiary{
+  color: $tertiary-color;
+}
+
+.text__color__hilight{
+  color: $hilight-color;
+}
+
+.bg__color__primary{
+  background-color: $primary-color;
+}
+
+.bg__color__secondary{
+  background-color: $secondary-color;
+}
+
+.bg__color__tertiary{
+  background-color: $tertiary-color;
+}
+
+.bg__color__hilight{
+  background-color: $hilight-color;
+}

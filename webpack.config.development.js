@@ -43,7 +43,7 @@ config.module.rules.push({
         sourceMap: true,
         ident: 'postcss',
         plugins: [
-          require('tailwindcss')
+          require('tailwindcss')('./tailwind.config.js')
         ],
       }
     },

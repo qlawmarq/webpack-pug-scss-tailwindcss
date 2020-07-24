@@ -32,7 +32,7 @@ config.module.rules.push({
       options: {
         ident: 'postcss',
         plugins: [
-          require('tailwindcss'),
+          require('tailwindcss')('./tailwind.config.js'),
           cssnano()
         ]
       }

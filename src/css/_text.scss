@@ -1,0 +1,19 @@
+.texx_area p {
+  padding-bottom: 1rem;
+}
+.cp_q {
+  padding-left: 2rem;
+  color: $hilight-color;
+}
+.cp_a {
+  padding-left: 2rem;
+}
+.cp_q::before,.cp_a::before {
+	margin: 0 1rem 0 -1.7rem;
+}
+.cp_q::before {
+	content: 'Q';
+}
+.cp_a::before {
+	content: 'A';
+}

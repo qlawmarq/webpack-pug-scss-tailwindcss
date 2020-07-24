@@ -7,13 +7,18 @@
   border-width: 1px;
   border-style: solid;
   border-color: $hilight-color;
-  color: $hilight-color;
+  color: $text-color;
+  .arrow {
+    color: $hilight-color;
+  }
 }
 
 .button__v3 {
-  opacity: 50%;
   border-width: 1px;
   border-style: solid;
-  border-color: $hilight-color;
-  color: $hilight-color;
+  border-color: $tertiary-color;
+  color: $text-color;
+  .arrow {
+    color: $tertiary-color;
+  }
 }
