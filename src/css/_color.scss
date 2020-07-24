@@ -1,10 +1,12 @@
 $primary-color: #333 !default;
 $secondary-color: #666 !default;
 $tertiary-color: #999 !default;
-$hilight-color: #dab55f !default;
+$first-hilight-color: #d6b280 !default;
+$second-hilight-color: #efe1ce;
 $text-color: #fff !default;
 $link-color: #2962ff !default;
 
+// text
 .text__color__primary{
   color: $primary-color;
 }
@@ -18,9 +20,10 @@ $link-color: #2962ff !default;
 }
 
 .text__color__hilight{
-  color: $hilight-color;
+  color: $first-hilight-color;
 }
 
+// background
 .bg__color__primary{
   background-color: $primary-color;
 }
@@ -34,5 +37,22 @@ $link-color: #2962ff !default;
 }
 
 .bg__color__hilight{
-  background-color: $hilight-color;
+  background-color: $first-hilight-color;
+}
+
+// border
+.border__color__primary{
+  border-color: $primary-color;
+}
+
+.border__color__secondary{
+  border-color: $secondary-color;
+}
+
+.border__color__tertiary{
+  border-color: $tertiary-color;
+}
+
+.border__color__hilight{
+  border-color: $first-hilight-color;
 }

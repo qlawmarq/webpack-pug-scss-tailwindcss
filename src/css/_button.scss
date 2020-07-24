@@ -1,15 +1,15 @@
 .button__v1 {
-  background-color: $hilight-color;
+  background-color: $first-hilight-color;
   color: $secondary-color;
 }
 
 .button__v2 {
   border-width: 1px;
   border-style: solid;
-  border-color: $hilight-color;
+  border-color: $first-hilight-color;
   color: $text-color;
   .arrow {
-    color: $hilight-color;
+    color: $first-hilight-color;
   }
 }
 
@@ -21,4 +21,9 @@
   .arrow {
     color: $tertiary-color;
   }
+}
+
+.button__v4 {
+  background-color: $first-hilight-color;
+  color: $secondary-color;
 }
