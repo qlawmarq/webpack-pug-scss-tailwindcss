@@ -1,0 +1,12 @@
+extends ./templates/_layout
+
+block variables
+  -
+    var appId = 'top';
+    var title = 'TOP PAGE';
+    var description = 'Description: This page is top page.';
+
+block content
+  include layouts/_header.pug
+  include pages/_reserved.pug
+  include layouts/_footer.pug
