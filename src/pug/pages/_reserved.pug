@@ -1,15 +1,15 @@
-.main
-  .container.mx-auto.py-6
+.main.py-6
+  .container.mx-auto.py-2
     .flex.justify-center.pb-4
-      p.text-lg Reserved complete!
+      p.text-lg 予約が完了しました
     .flex.justify-center.pb-4
-      p.text-sm.font-bold.px-32.py-2.bg__color__secondary Reserved Number
+      p.text-sm.font-bold.px-32.py-2.bg__color__secondary 予約番号
     .flex.justify-center.pb-4
       p.text-lg X1234567890
     .flex.justify-center.pb-4
-      p.text-sm I sent an email. Please check.
+      p.text-sm 登録のメールアドレス宛に予約完了メールを送信しました。
 .secondary.py-6
-  .container.mx-auto.pb-3.pt-6
+  .container.mx-auto.py-6
     .container.mx-auto.grid.px-12
       div.mx-auto.flex
         div.mx-auto.flex.flex-col.bg__color__primary.text__color__tertiary.w-24.h-24
@@ -30,14 +30,14 @@
     .container.mx-auto.grid.lg_grid-cols-3.sm_grid-cols-1.px-12
       div.mx-10.pb-2.flex
         img(src="../static/icon_counseling_step01.svg").bg__color__hilight.border.border__color__primary.w-24.h-24.p-1
-        p.my-auto.px-2.font-bold 自分の髪質、クセ、こだわりをきちんと伝える！
+        p.my-auto.px-2.font-bold.text-base 自分の髪質、クセ、こだわりをきちんと伝える！
       div.mx-10.pb-2.flex
         img(src="../static/icon_counseling_step02.svg").bg__color__hilight.border.border__color__primary.w-24.h-24.p-1
-        p.my-auto.px-2.font-bold ヘアカタログを見せてもらいイメージの確認・共有をする！
+        p.my-auto.px-2.font-bold.text-base ヘアカタログを見せてもらいイメージの確認・共有をする！
       div.mx-10.pb-2.flex
         img(src="../static/icon_counseling_step03.svg").bg__color__hilight.border.border__color__primary.w-24.h-24.p-1
-        p.my-auto.px-2.font-bold 髪質とイメージを伝えつつ、美容師から提案してもらう！
-.main
+        p.my-auto.px-2.font-bold.text-base 髪質とイメージを伝えつつ、美容師から提案してもらう！
+.main.py-6
   .container.mx-auto.py-6.flex.justify-center
     include ../components/common/button/_button__v4.pug
 
