@@ -1,0 +1,15 @@
+version: '3'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: app
+    tty: true
+    ports:
+      - "8080:8080"
+    volumes:
+      - /usr/src/node_modules
+      - .:/usr/src
+    environment:
+      - NODE_ENV=development
