@@ -29,6 +29,19 @@ $ yarn start
 $ yarn build
 ```
 
+## Setup with Docker
+
+```bash
+# Build Docker
+$ docker-compose up -d --build
+
+# Use Docker container
+$ docker-compose exec app bash
+
+# Start develop
+bash-5.0# yarn start
+```
+
 ## Trouble-shooting
 
 If you encounter any of the following errors, please switch your Node.js version to v14.
