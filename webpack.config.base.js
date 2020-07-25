@@ -60,7 +60,11 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: ['.js']
+    extensions: ['.js'],
+    // alias: {
+    //   static: path.resolve(__dirname, 'src/static'),
+    //   components: path.resolve(__dirname, 'src/pug/components')
+    // }
   },
   plugins: [
     // new webpack.ProvidePlugin({

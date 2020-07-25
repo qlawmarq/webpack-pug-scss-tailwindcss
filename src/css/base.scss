@@ -9,12 +9,12 @@
 @import "tailwindcss/utilities";
 
 .header {
-  background-color: $primary-color;
+  background-color: $header-color;
   color: $text-color;
 }
 
 .main {
-  background-color: $secondary-color;
+  background-color: $primary-color;
   color: $text-color;
 }
 
@@ -24,6 +24,6 @@
 }
 
 .footer {
-  background-color: $primary-color;
+  background-color: $header-color;
   color: $text-color;
 }
