@@ -4,13 +4,12 @@ const path = require('path');
 
 const AUTO_COMMENT_STR = [
   '/**',
-  ' * @file pugをimportするだけのファイル（自動で出力しているので編集しないでください）',
+  ' * @file A file that just imports the pug (automatically output, do not edit it)',
   ' */'
 ].join('\n');
 
 /**
- * pugファイルのimport文を書く
- * @param {string} dirPath - 監視対象のディレクトリパス
+ * @param {string} dirPath - Directory path to be monitored
  */
 function _autoImportPugFiles(dirPath) {
   fs.readdir(dirPath, (err, list) => {
@@ -30,8 +29,7 @@ function _autoImportPugFiles(dirPath) {
 }
 
 /**
- * pugファイルの監視してimport文を更新する
- * @param {string} dirPath - 監視対象のディレクトリパス
+ * @param {string} dirPath - Directory path to be monitored
  */
 function autoImportPugFiles(dirPath) {
   const relativePath = path.relative(__dirname, dirPath);

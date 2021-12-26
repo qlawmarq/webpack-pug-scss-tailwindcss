@@ -10,7 +10,7 @@
   },
   "author": "Masaki Yoshiiwa",
   "license": "MIT",
-   "engines": {
+  "engines": {
     "node": ">=14.0.0"
   },
   "browserslist": [

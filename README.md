@@ -19,6 +19,9 @@ v14.5.0
 ## Setup
 
 ```bash
+# Install yarn, if you did'nt install yarn
+$ npm install --global yarn
+
 # Install dependencies
 $ yarn
 
